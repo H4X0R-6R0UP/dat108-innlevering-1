@@ -143,7 +143,7 @@ public class Main3 {
 
         List<Ansatt> ansatte = List.of(a1, a2, a3, a4);
 
-        System.out.print(filterEtternavn(ansatte));
+        System.out.print(filterEtternavn(ansatte)+"\n");
         System.out.print(antallKvinner(ansatte)+"\n");
         snittlonnKvinner(ansatte);
         sjeflonn(ansatte);
@@ -151,8 +151,11 @@ public class Main3 {
         System.out.print(lonnSjekk(ansatte));
         System.out.print(lavestLonn(ansatte));
 
-        boolean delelig = IntStream.rangeClosed(1, 1000)
-                .allMatch(n -> n % 3 == 0 || n % 5 == 0);
+        int delelig = IntStream.rangeClosed(1, 1000)
+                .filter(n -> n % 3 == 0 || n % 5 == 0)
+                .sum();
+
+        System.out.print("\n"+delelig);
     }
 }
 
