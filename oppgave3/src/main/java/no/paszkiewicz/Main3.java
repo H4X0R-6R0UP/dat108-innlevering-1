@@ -80,7 +80,6 @@ public class Main3 {
             return "\n"+getFornavn()+" "+getEtternavn()+", "+getKjonn()+", "+getStilling()+", "+getAarslonn();
         }
     }
-    
     public static void main(String[] args) {
 
         Ansatt a1 = new Ansatt("Jan", "Mayen", Kjonn.MANN, "Øy", 1000000);
