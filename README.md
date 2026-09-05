@@ -1,5 +1,5 @@
 # dat108-innlevering-1
-DAT108 oblig1_grXX
+DAT108 oblig1_gr38
 
 **Medlemmer**:
 * Daniel Aarsand
