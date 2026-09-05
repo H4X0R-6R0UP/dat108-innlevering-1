@@ -12,3 +12,10 @@ DAT108 oblig1_grXX
     ![""](./assets/oppgave1a.png)
     ![""](./assets/oppgave1b.png)
 
+
+
+*   **Oppgave 3**
+
+*   ![""](.assets/Screenshot 2026-09-04 112118.png)
+*   
+
