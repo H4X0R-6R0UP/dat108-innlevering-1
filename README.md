@@ -17,5 +17,3 @@ DAT108 oblig1_grXX
 *   **Oppgave 3**
 
 *   ![oppgave3](./assets/oppgave3.png)
-*   
-
