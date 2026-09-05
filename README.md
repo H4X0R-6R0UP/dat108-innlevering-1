@@ -16,6 +16,6 @@ DAT108 oblig1_grXX
 
 *   **Oppgave 3**
 
-*   ![""](.assets/Screenshot 2026-09-04 112118.png)
+*   ![""](./assets/Screenshot 2026-09-04 112118.png)
 *   
 
