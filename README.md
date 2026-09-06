@@ -1,5 +1,5 @@
 # dat108-innlevering-1
-DAT108 oblig1_grXX
+DAT108 oblig1_gr38
 
 **Medlemmer**:
 * Daniel Aarsand
@@ -9,9 +9,14 @@ DAT108 oblig1_grXX
 **Skjermdump fra utskrift av metodekjøring**:
 *   **Oppgave 1**:
 
-    ![""](./assets/oppgave1a.png)
-    ![""](./assets/oppgave1b.png)
+    !["oppgave1a"](./assets/oppgave1a.png)
+    !["oppgave1b"](./assets/oppgave1b.png)
 
 *   **Oppgave 2**
 
-    ![""](./assets/oppgave2.png)
+    !["oppgave2"](./assets/oppgave2.png)
+
+
+*   **Oppgave 3**
+
+    !["oppgave3"](./assets/oppgave3.png)
