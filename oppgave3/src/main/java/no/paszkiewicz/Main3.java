@@ -21,9 +21,9 @@ public class Main3 {
         String etternavn;
         Kjonn kjonn;
         String stilling;
-        double aarslonn;
+        int aarslonn;
 
-        public Ansatt(String fornavn, String etternavn, Kjonn kjonn, String stilling, double aarslonn) {
+        public Ansatt(String fornavn, String etternavn, Kjonn kjonn, String stilling, int aarslonn) {
             this.fornavn = fornavn;
             this.etternavn = etternavn;
             this.kjonn = kjonn;
@@ -70,7 +70,7 @@ public class Main3 {
             return aarslonn;
         }
 
-        public void setAarslonn(double aarslonn) {
+        public void setAarslonn(int aarslonn) {
             this.aarslonn = aarslonn;
         }
 
@@ -109,7 +109,7 @@ public class Main3 {
 
         List<Ansatt> sjef = ansatte.stream()
                 .filter(ansatt -> "Sjef".equals(ansatt.getStilling()))
-                .peek(ansatt -> ansatt.setAarslonn(ansatt.getAarslonn() * 1.07))
+                .peek(ansatt -> ansatt.setAarslonn((int) (ansatt.getAarslonn() * 1.07)))
                 .toList();
 
         System.out.print(sjef+"\n");
